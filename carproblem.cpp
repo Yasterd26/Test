@@ -19,7 +19,7 @@ bool compare(pair<int,int>p1, pair<int,int>p2){
 
 
 int main() {
-    vector<pair<int,int>>v;
+    vector<pair <int,int> >v;
     int n;
     cin>>n;
     
@@ -33,7 +33,7 @@ int main() {
     
     cout<<"Sorting according to nearest distance to origin"<<endl;
     for(auto p : v){
-        cout<<"Car"<<p.first<<","<<p.second;
+        cout<<"Car "<<p.first<<","<<p.second<<endl;
     }
     
 
